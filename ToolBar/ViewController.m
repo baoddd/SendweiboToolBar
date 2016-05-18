@@ -21,7 +21,7 @@
     text.delegate = self;
     text.alwaysBounceVertical = YES;
     text.frame = self.view.frame;
-    text.backgroundColor = [UIColor orangeColor];
+    text.backgroundColor = [UIColor redColor];
     [self.view addSubview:text];
     self.text = text;
     ToolBar *toolbar = [[ToolBar alloc]init];
